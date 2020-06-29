@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+    <head>
+        <!--Meta tag + -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="just learning">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="main.css">
+        <title> Chat</title>
+    </head>
+    <body>
+        <div class="container border rounded bg-dark py-5 px-5 mb-4 mt-4">
+            <div class="input-group input-group-lg mb-4">
+                <input type="text" class="form-control" placeholder="Message you would like to send." id="messageIn">
+                <div class="input-group-append">
+                  <button class="btn btn-success" type="submit" id="submitMessage">SUBMIT</button>
+                </div>
+            </div>
+            <h3 class="border rounded font-weight-bold text-capitalize bg-danger text-white text-monospace py-2 px-2">Last message delivered</h3>
+            <div id="messageOut"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
